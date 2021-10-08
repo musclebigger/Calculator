@@ -1,0 +1,105 @@
+button {
+  border-radius: 4px;
+  color: white;
+  margin: 1px 1px 1px 1px;
+  border-color: wheat;
+}
+
+.container-calculator {
+  border-width: 5px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rebeccapurple;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  margin-top: 200px;
+  color: white;
+}
+
+.container-calculator .calculator-row {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container-calculator .calculator-row .calculator-display-column {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  text-align: right;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-calculator .calculator-row .calculator-display-column .result {
+  font-size: x-large;
+}
+
+.container-calculator .calculator-row .calculator-display-column .current-calculation {
+  font-size: small;
+}
+
+.container-calculator .calculator-row .operator {
+  background-color: #c0c408;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-calculator .calculator-row .operator-output {
+  background-color: slateblue;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-calculator .calculator-row .operator-clean {
+  background-color: tomato;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-calculator .calculator-row .cancel {
+  background-color: slateblue;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-calculator .calculator-row .numbers {
+  background-color: slategrey;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-calculator .calculator-row .decimal {
+  background-color: slategrey;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=style.css.map */
